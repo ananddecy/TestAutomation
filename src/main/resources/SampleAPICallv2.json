@@ -1,0 +1,3383 @@
+{
+  "@xmlns": "http://www.opentravel.org/OTA/2003/05",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.opentravel.org/OTA/2003/05 OTA_VehAvailRateRS.xsd",
+  "@Version": "2.004",
+  "@Target": "Test",
+  "@PrimaryLangID": "EN",
+  "@TimeStamp": "2022-01-28T10:56:20.713Z",
+  "Success": [],
+  "VehAvailRSCore": {
+    "VehRentalCore": {
+      "@PickUpDateTime": "2022-11-25T10:00:00Z",
+      "@ReturnDateTime": "2022-11-29T10:00:00Z",
+      "PickUpLocation": {
+        "@CodeContext": "CARTRAWLER",
+        "@LocationCode": "11",
+        "@Name": "Dublin - Airport"
+      },
+      "ReturnLocation": {
+        "@CodeContext": "CARTRAWLER",
+        "@LocationCode": "11",
+        "@Name": "Dublin - Airport"
+      }
+    },
+    "VehVendorAvails": [
+      {
+        "Vendor": {
+          "@Code": "1129",
+          "@CodeContext": "CARTRAWLER",
+          "@CompanyShortName": "EUROPCAR",
+          "@Division": "EUROPCAR"
+        },
+        "VehAvails": [
+          {
+            "VehAvailCore": {
+              "@Status": "Available",
+              "Vehicle": {
+                "@AirConditionInd": "false",
+                "@TransmissionType": "Manual",
+                "@FuelType": "Petrol",
+                "@DriveType": "Unspecified",
+                "@PassengerQuantity": "5",
+                "@BaggageQuantity": "2",
+                "@Code": "ECMN",
+                "@CodeContext": "CARTRAWLER",
+                "VehType": {
+                  "@VehicleCategory": "1",
+                  "@DoorCount": "3"
+                },
+                "VehClass": {
+                  "@Size": "3"
+                },
+                "VehMakeModel": {
+                  "@Name": "Nissan Micra or similar",
+                  "@Code": "ECMN"
+                },
+                "PictureURL": "https://ctimg-fleet.cartrawler.com/nissan/micra/primary.png",
+                "VehIdentity": {
+                  "@VehicleAssetNumber": "2117"
+                }
+              },
+              "RentalRate": {
+                "VehicleCharges": [
+                  {
+                    "@Description": "Breakdown assistance",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "602.VCP.X"
+                  },
+                  {
+                    "@Description": "Airport fee",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "30"
+                  },
+                  {
+                    "@Description": "Tax",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "7"
+                  },
+                  {
+                    "@Description": "Unlimited mileage",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "609.VCP.X"
+                  }
+                ],
+                "RateQualifier": {
+                  "@RateQualifier": "PREPAID-IN"
+                }
+              },
+              "TotalCharge": {
+                "@RateTotalAmount": "197.60",
+                "@EstimatedTotalAmount": "197.60",
+                "@CurrencyCode": "EUR"
+              },
+              "PricedEquips": [
+                {
+                  "Equipment": {
+                    "@EquipType": "101.EQP",
+                    "Description": "Additional Driver"
+                  },
+                  "Charge": {
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "13",
+                    "Description": "GPS"
+                  },
+                  "Charge": {
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "8",
+                    "Description": "Child toddler seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "9",
+                    "Description": "Booster seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                }
+              ],
+              "Fees": [
+                {
+                  "@Amount": "197.60",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "22"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "23"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "6"
+                }
+              ],
+              "Reference": {
+                "@Type": "16",
+                "@ID": "1030956933",
+                "@ID_Context": "CARTRAWLER",
+                "@DateTime": "2022-01-28T10:56:20.713Z",
+                "@URL": "7d76bdf4-54bf-43e9-8daf-848b4e6093a3.63"
+              },
+              "TPA_Extensions": {
+                "PictureURLHD": "https://ctimg-fleet.cartrawler.com/nissan/micra/primary.png",
+                "UpSell": {
+                  "@Insurance": "1"
+                },
+                "DebitCard": {
+                  "@OnArrival": "false"
+                },
+                "PPDep": {
+                  "@Available": "false",
+                  "@Keep": "false"
+                },
+                "ZeroDeposit": {
+                  "@Available": "false"
+                },
+                "FuelPolicy": {
+                  "@Type": "FULLFULL",
+                  "@Description": "Fuel: Pick up and return full."
+                },
+                "Config": {
+                  "@OrderBy": "18",
+                  "@Relevance": "6",
+                  "@Preferred": "0",
+                  "@Insurance": "true",
+                  "@Duration": "4",
+                  "@CC_Info": "true",
+                  "@PhysicalInetAddress": "-1408231330",
+                  "@ConsumerAddress": "1508524389",
+                  "@HotelDelivery": "false"
+                },
+                "OrderBy": {
+                  "@Index": "18"
+                },
+                "Indexation": {
+                  "IndexByPrice": {
+                    "@Key": "5",
+                    "@BundleText": "Standard",
+                    "@BundleType": "Rate_IN"
+                  }
+                },
+                "CC_Info": {
+                  "@Required": "true"
+                },
+                "SpecialOffers": {
+                  "Offer": {
+                    "@Type": "pre_registration",
+                    "@UIToken": "pre_registration",
+                    "@ShortText": "Pre-Registration available",
+                    "@Index": "0",
+                    "@SEFree": "1",
+                    "#text": "For faster, easier car hire, add driver details before pick-up."
+                  }
+                },
+                "Duration": {
+                  "@Days": "4"
+                },
+                "Deposit": {
+                  "@Amount": "1800.00",
+                  "@CurrencyCode": "EUR",
+                  "@MinAmount": "0.00",
+                  "@MaxAmount": "0.00"
+                },
+                "PricedEquipsDisplay": [
+                  {
+                    "@EquipType": "101.EQP",
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "13",
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "8",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "9",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  }
+                ],
+                "Fleet": {
+                  "FleetGroup": {
+                    "Vehicle": {
+                      "@AirConditionInd": "false",
+                      "@TransmissionType": "Manual",
+                      "@FuelType": "Petrol",
+                      "@DriveType": "Unspecified",
+                      "@PassengerQuantity": "5",
+                      "@BaggageQuantity": "2",
+                      "@Code": "ECMN",
+                      "@CodeContext": "CARTRAWLER",
+                      "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "3"
+                      },
+                      "VehClass": {
+                        "@Size": "3"
+                      },
+                      "VehMakeModel": {
+                        "@Name": "Nissan Micra or similar",
+                        "@Code": "ECMN"
+                      },
+                      "PictureURL": "https://ctimg-fleet.cartrawler.com/nissan/micra/primary.png",
+                      "VehIdentity": {
+                        "@VehicleAssetNumber": "2117"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "VehAvailInfo": {
+              "PricedCoverages": [
+                {
+                  "Coverage": {
+                    "@CoverageType": "50"
+                  },
+                  "Charge": {
+                    "@Description": "Third party liability protection (TP)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "47"
+                  },
+                  "Charge": {
+                    "@Description": "Theft waiver (TW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "6"
+                  },
+                  "Charge": {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "VehAvailCore": {
+              "@Status": "Available",
+              "Vehicle": {
+                "@AirConditionInd": "false",
+                "@TransmissionType": "Manual",
+                "@FuelType": "Petrol",
+                "@DriveType": "Unspecified",
+                "@PassengerQuantity": "4",
+                "@BaggageQuantity": "2",
+                "@Code": "MDMN",
+                "@CodeContext": "CARTRAWLER",
+                "VehType": {
+                  "@VehicleCategory": "1",
+                  "@DoorCount": "5"
+                },
+                "VehClass": {
+                  "@Size": "1"
+                },
+                "VehMakeModel": {
+                  "@Name": "Volkswagen Up or similar",
+                  "@Code": "MDMN"
+                },
+                "PictureURL": "https://ctimg-fleet.cartrawler.com/volkswagen/up/primary.png",
+                "VehIdentity": {
+                  "@VehicleAssetNumber": "52673"
+                }
+              },
+              "RentalRate": {
+                "VehicleCharges": [
+                  {
+                    "@Description": "Breakdown assistance",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "602.VCP.X"
+                  },
+                  {
+                    "@Description": "Airport fee",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "30"
+                  },
+                  {
+                    "@Description": "Tax",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "7"
+                  },
+                  {
+                    "@Description": "Unlimited mileage",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "609.VCP.X"
+                  }
+                ],
+                "RateQualifier": {
+                  "@RateQualifier": "PREPAID-IN"
+                }
+              },
+              "TotalCharge": {
+                "@RateTotalAmount": "192.59",
+                "@EstimatedTotalAmount": "192.59",
+                "@CurrencyCode": "EUR"
+              },
+              "PricedEquips": [
+                {
+                  "Equipment": {
+                    "@EquipType": "101.EQP",
+                    "Description": "Additional Driver"
+                  },
+                  "Charge": {
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "13",
+                    "Description": "GPS"
+                  },
+                  "Charge": {
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "8",
+                    "Description": "Child toddler seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "9",
+                    "Description": "Booster seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                }
+              ],
+              "Fees": [
+                {
+                  "@Amount": "192.59",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "22"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "23"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "6"
+                }
+              ],
+              "Reference": {
+                "@Type": "16",
+                "@ID": "1624720876",
+                "@ID_Context": "CARTRAWLER",
+                "@DateTime": "2022-01-28T10:56:20.713Z",
+                "@URL": "26620b74-4ef8-4578-953c-e4b3283359ce.63"
+              },
+              "TPA_Extensions": {
+                "PictureURLHD": "https://ctimg-fleet.cartrawler.com/volkswagen/up/primary.png",
+                "UpSell": {
+                  "@Insurance": "1"
+                },
+                "DebitCard": {
+                  "@OnArrival": "false"
+                },
+                "PPDep": {
+                  "@Available": "false",
+                  "@Keep": "false"
+                },
+                "ZeroDeposit": {
+                  "@Available": "false"
+                },
+                "FuelPolicy": {
+                  "@Type": "FULLFULL",
+                  "@Description": "Fuel: Pick up and return full."
+                },
+                "Config": {
+                  "@OrderBy": "13",
+                  "@Relevance": "4",
+                  "@Preferred": "0",
+                  "@Insurance": "true",
+                  "@Duration": "4",
+                  "@CC_Info": "true",
+                  "@PhysicalInetAddress": "-1408231330",
+                  "@ConsumerAddress": "1508524389",
+                  "@HotelDelivery": "false"
+                },
+                "OrderBy": {
+                  "@Index": "13"
+                },
+                "Indexation": {
+                  "IndexByPrice": {
+                    "@Key": "3",
+                    "@BundleText": "Standard",
+                    "@BundleType": "Rate_IN"
+                  }
+                },
+                "CC_Info": {
+                  "@Required": "true"
+                },
+                "SpecialOffers": {
+                  "Offer": {
+                    "@Type": "pre_registration",
+                    "@UIToken": "pre_registration",
+                    "@ShortText": "Pre-Registration available",
+                    "@Index": "0",
+                    "@SEFree": "1",
+                    "#text": "For faster, easier car hire, add driver details before pick-up."
+                  }
+                },
+                "Duration": {
+                  "@Days": "4"
+                },
+                "Deposit": {
+                  "@Amount": "1500.00",
+                  "@CurrencyCode": "EUR",
+                  "@MinAmount": "0.00",
+                  "@MaxAmount": "0.00"
+                },
+                "PricedEquipsDisplay": [
+                  {
+                    "@EquipType": "101.EQP",
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "13",
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "8",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "9",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  }
+                ],
+                "Fleet": {
+                  "FleetGroup": {
+                    "Vehicle": {
+                      "@AirConditionInd": "false",
+                      "@TransmissionType": "Manual",
+                      "@FuelType": "Petrol",
+                      "@DriveType": "Unspecified",
+                      "@PassengerQuantity": "4",
+                      "@BaggageQuantity": "2",
+                      "@Code": "MDMN",
+                      "@CodeContext": "CARTRAWLER",
+                      "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "5"
+                      },
+                      "VehClass": {
+                        "@Size": "1"
+                      },
+                      "VehMakeModel": {
+                        "@Name": "Volkswagen Up or similar",
+                        "@Code": "MDMN"
+                      },
+                      "PictureURL": "https://ctimg-fleet.cartrawler.com/volkswagen/up/primary.png",
+                      "VehIdentity": {
+                        "@VehicleAssetNumber": "52673"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "VehAvailInfo": {
+              "PricedCoverages": [
+                {
+                  "Coverage": {
+                    "@CoverageType": "50"
+                  },
+                  "Charge": {
+                    "@Description": "Third party liability protection (TP)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "6"
+                  },
+                  "Charge": {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "47"
+                  },
+                  "Charge": {
+                    "@Description": "Theft waiver (TW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "VehAvailCore": {
+              "@Status": "Available",
+              "Vehicle": {
+                "@AirConditionInd": "false",
+                "@TransmissionType": "Manual",
+                "@FuelType": "Petrol",
+                "@DriveType": "Unspecified",
+                "@PassengerQuantity": "4",
+                "@BaggageQuantity": "2",
+                "@Code": "MCMN",
+                "@CodeContext": "CARTRAWLER",
+                "VehType": {
+                  "@VehicleCategory": "1",
+                  "@DoorCount": "3"
+                },
+                "VehClass": {
+                  "@Size": "1"
+                },
+                "VehMakeModel": {
+                  "@Name": "Hyundai i10 or similar",
+                  "@Code": "MCMN"
+                },
+                "PictureURL": "https://ctimg-fleet.cartrawler.com/hyundai/i10/primary.png",
+                "VehIdentity": {
+                  "@VehicleAssetNumber": "24953"
+                }
+              },
+              "RentalRate": {
+                "VehicleCharges": [
+                  {
+                    "@Description": "Breakdown assistance",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "602.VCP.X"
+                  },
+                  {
+                    "@Description": "Airport fee",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "30"
+                  },
+                  {
+                    "@Description": "Tax",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "7"
+                  },
+                  {
+                    "@Description": "Unlimited mileage",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "609.VCP.X"
+                  }
+                ],
+                "RateQualifier": {
+                  "@RateQualifier": "PREPAID-IN"
+                }
+              },
+              "TotalCharge": {
+                "@RateTotalAmount": "192.59",
+                "@EstimatedTotalAmount": "192.59",
+                "@CurrencyCode": "EUR"
+              },
+              "PricedEquips": [
+                {
+                  "Equipment": {
+                    "@EquipType": "101.EQP",
+                    "Description": "Additional Driver"
+                  },
+                  "Charge": {
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "13",
+                    "Description": "GPS"
+                  },
+                  "Charge": {
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "8",
+                    "Description": "Child toddler seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "9",
+                    "Description": "Booster seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                }
+              ],
+              "Fees": [
+                {
+                  "@Amount": "192.59",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "22"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "23"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "6"
+                }
+              ],
+              "Reference": {
+                "@Type": "16",
+                "@ID": "1792990",
+                "@ID_Context": "CARTRAWLER",
+                "@DateTime": "2022-01-28T10:56:20.713Z",
+                "@URL": "cb97198d-4fb7-4df6-a2b9-b419e0ea16ec.63"
+              },
+              "TPA_Extensions": {
+                "PictureURLHD": "https://ctimg-fleet.cartrawler.com/hyundai/i10/primary.png",
+                "UpSell": {
+                  "@Insurance": "1"
+                },
+                "DebitCard": {
+                  "@OnArrival": "false"
+                },
+                "PPDep": {
+                  "@Available": "false",
+                  "@Keep": "false"
+                },
+                "ZeroDeposit": {
+                  "@Available": "false"
+                },
+                "FuelPolicy": {
+                  "@Type": "FULLFULL",
+                  "@Description": "Fuel: Pick up and return full."
+                },
+                "Config": {
+                  "@OrderBy": "2",
+                  "@Relevance": "5",
+                  "@Preferred": "0",
+                  "@Insurance": "true",
+                  "@Duration": "4",
+                  "@CC_Info": "true",
+                  "@PhysicalInetAddress": "-1408231330",
+                  "@ConsumerAddress": "1508524389",
+                  "@HotelDelivery": "false"
+                },
+                "OrderBy": {
+                  "@Index": "2"
+                },
+                "Indexation": {
+                  "IndexByPrice": {
+                    "@Key": "4",
+                    "@BundleText": "Standard",
+                    "@BundleType": "Rate_IN"
+                  }
+                },
+                "CC_Info": {
+                  "@Required": "true"
+                },
+                "SpecialOffers": {
+                  "Offer": {
+                    "@Type": "pre_registration",
+                    "@UIToken": "pre_registration",
+                    "@ShortText": "Pre-Registration available",
+                    "@Index": "0",
+                    "@SEFree": "1",
+                    "#text": "For faster, easier car hire, add driver details before pick-up."
+                  }
+                },
+                "Duration": {
+                  "@Days": "4"
+                },
+                "Deposit": {
+                  "@Amount": "1500.00",
+                  "@CurrencyCode": "EUR",
+                  "@MinAmount": "0.00",
+                  "@MaxAmount": "0.00"
+                },
+                "PricedEquipsDisplay": [
+                  {
+                    "@EquipType": "101.EQP",
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "13",
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "8",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "9",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  }
+                ],
+                "Fleet": {
+                  "FleetGroup": {
+                    "Vehicle": {
+                      "@AirConditionInd": "false",
+                      "@TransmissionType": "Manual",
+                      "@FuelType": "Petrol",
+                      "@DriveType": "Unspecified",
+                      "@PassengerQuantity": "4",
+                      "@BaggageQuantity": "2",
+                      "@Code": "MCMN",
+                      "@CodeContext": "CARTRAWLER",
+                      "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "3"
+                      },
+                      "VehClass": {
+                        "@Size": "1"
+                      },
+                      "VehMakeModel": {
+                        "@Name": "Hyundai i10 or similar",
+                        "@Code": "MCMN"
+                      },
+                      "PictureURL": "https://ctimg-fleet.cartrawler.com/hyundai/i10/primary.png",
+                      "VehIdentity": {
+                        "@VehicleAssetNumber": "24953"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "VehAvailInfo": {
+              "PricedCoverages": [
+                {
+                  "Coverage": {
+                    "@CoverageType": "50"
+                  },
+                  "Charge": {
+                    "@Description": "Third party liability protection (TP)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "6"
+                  },
+                  "Charge": {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "47"
+                  },
+                  "Charge": {
+                    "@Description": "Theft waiver (TW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "VehAvailCore": {
+              "@Status": "Available",
+              "Vehicle": {
+                "@AirConditionInd": "false",
+                "@TransmissionType": "Manual",
+                "@FuelType": "Petrol",
+                "@DriveType": "Unspecified",
+                "@PassengerQuantity": "4",
+                "@BaggageQuantity": "2",
+                "@Code": "EBMN",
+                "@CodeContext": "CARTRAWLER",
+                "VehType": {
+                  "@VehicleCategory": "1",
+                  "@DoorCount": "3"
+                },
+                "VehClass": {
+                  "@Size": "3"
+                },
+                "VehMakeModel": {
+                  "@Name": "Ford Fiesta or similar",
+                  "@Code": "EBMN"
+                },
+                "PictureURL": "https://ctimg-fleet.cartrawler.com/ford/fiesta-3dr/primary.png",
+                "VehIdentity": {
+                  "@VehicleAssetNumber": "53245"
+                }
+              },
+              "RentalRate": {
+                "VehicleCharges": [
+                  {
+                    "@Description": "Breakdown assistance",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "602.VCP.X"
+                  },
+                  {
+                    "@Description": "Airport fee",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "30"
+                  },
+                  {
+                    "@Description": "Tax",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "7"
+                  },
+                  {
+                    "@Description": "Unlimited mileage",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "609.VCP.X"
+                  }
+                ],
+                "RateQualifier": {
+                  "@RateQualifier": "PREPAID-IN"
+                }
+              },
+              "TotalCharge": {
+                "@RateTotalAmount": "198.43",
+                "@EstimatedTotalAmount": "198.43",
+                "@CurrencyCode": "EUR"
+              },
+              "PricedEquips": [
+                {
+                  "Equipment": {
+                    "@EquipType": "101.EQP",
+                    "Description": "Additional Driver"
+                  },
+                  "Charge": {
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "13",
+                    "Description": "GPS"
+                  },
+                  "Charge": {
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "8",
+                    "Description": "Child toddler seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "9",
+                    "Description": "Booster seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                }
+              ],
+              "Fees": [
+                {
+                  "@Amount": "198.43",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "22"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "23"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "6"
+                }
+              ],
+              "Reference": {
+                "@Type": "16",
+                "@ID": "639632956",
+                "@ID_Context": "CARTRAWLER",
+                "@DateTime": "2022-01-28T10:56:20.713Z",
+                "@URL": "4960f4c4-157e-4d9b-a491-6dec409651b5.63"
+              },
+              "TPA_Extensions": {
+                "PictureURLHD": "https://ctimg-fleet.cartrawler.com/ford/fiesta-3dr/primary.png",
+                "UpSell": {
+                  "@Insurance": "1"
+                },
+                "DebitCard": {
+                  "@OnArrival": "false"
+                },
+                "PPDep": {
+                  "@Available": "false",
+                  "@Keep": "false"
+                },
+                "ZeroDeposit": {
+                  "@Available": "false"
+                },
+                "FuelPolicy": {
+                  "@Type": "FULLFULL",
+                  "@Description": "Fuel: Pick up and return full."
+                },
+                "Config": {
+                  "@OrderBy": "26",
+                  "@Relevance": "7",
+                  "@Preferred": "0",
+                  "@Insurance": "true",
+                  "@Duration": "4",
+                  "@CC_Info": "true",
+                  "@PhysicalInetAddress": "-1408231330",
+                  "@ConsumerAddress": "1508524389",
+                  "@HotelDelivery": "false"
+                },
+                "OrderBy": {
+                  "@Index": "26"
+                },
+                "Indexation": {
+                  "IndexByPrice": {
+                    "@Key": "6",
+                    "@BundleText": "Standard",
+                    "@BundleType": "Rate_IN"
+                  }
+                },
+                "CC_Info": {
+                  "@Required": "true"
+                },
+                "SpecialOffers": {
+                  "Offer": {
+                    "@Type": "pre_registration",
+                    "@UIToken": "pre_registration",
+                    "@ShortText": "Pre-Registration available",
+                    "@Index": "0",
+                    "@SEFree": "1",
+                    "#text": "For faster, easier car hire, add driver details before pick-up."
+                  }
+                },
+                "Duration": {
+                  "@Days": "4"
+                },
+                "Deposit": {
+                  "@Amount": "1600.00",
+                  "@CurrencyCode": "EUR",
+                  "@MinAmount": "0.00",
+                  "@MaxAmount": "0.00"
+                },
+                "PricedEquipsDisplay": [
+                  {
+                    "@EquipType": "101.EQP",
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "13",
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "8",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "9",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  }
+                ],
+                "Fleet": {
+                  "FleetGroup": {
+                    "Vehicle": {
+                      "@AirConditionInd": "false",
+                      "@TransmissionType": "Manual",
+                      "@FuelType": "Petrol",
+                      "@DriveType": "Unspecified",
+                      "@PassengerQuantity": "4",
+                      "@BaggageQuantity": "2",
+                      "@Code": "EBMN",
+                      "@CodeContext": "CARTRAWLER",
+                      "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "3"
+                      },
+                      "VehClass": {
+                        "@Size": "3"
+                      },
+                      "VehMakeModel": {
+                        "@Name": "Ford Fiesta or similar",
+                        "@Code": "EBMN"
+                      },
+                      "PictureURL": "https://ctimg-fleet.cartrawler.com/ford/fiesta-3dr/primary.png",
+                      "VehIdentity": {
+                        "@VehicleAssetNumber": "53245"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "VehAvailInfo": {
+              "PricedCoverages": [
+                {
+                  "Coverage": {
+                    "@CoverageType": "50"
+                  },
+                  "Charge": {
+                    "@Description": "Third party liability protection (TP)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "47"
+                  },
+                  "Charge": {
+                    "@Description": "Theft waiver (TW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "6"
+                  },
+                  "Charge": {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "Info": {
+          "LocationDetails": {
+            "@Code": "11",
+            "@Name": "Dublin - Airport",
+            "@AtAirport": "1",
+            "@ExtendedLocationCode": "273276",
+            "Address": {
+              "@Remark": "53.4259000,-6.2401000",
+              "AddressLine": "TERMINALS 1 AND 2, DUBLIN AIRPORT, DUBLIN, CO., Dublin",
+              "CountryName": {
+                "@Code": "IE"
+              }
+            },
+            "Telephone": {
+              "@PhoneNumber": "353 1 8122800"
+            },
+            "AdditionalInfo": {
+              "VehRentLocInfos": {
+                "VehRentLocInfo": {
+                  "@Type": "VLI_3.VLI.X"
+                }
+              },
+              "CounterLocation": {
+                "@Location": "VWF_3.VWF.X"
+              },
+              "TPA_Extensions": {
+                "SupplierLocation": {
+                  "@Timezone": "Europe/Dublin",
+                  "@TimeZoneAdjustmentMins": "0"
+                }
+              }
+            }
+          },
+          "TPA_Extensions": {
+            "SortOrdering": {
+              "@Type": "DEFAULT"
+            },
+            "VendorPruningCategory": {
+              "@Key": "4",
+              "@Description": "CORPORATE"
+            },
+            "VendorPictureURL": {
+              "@UIToken": "europcar",
+              "#text": "https://ctimg-supplier.cartrawler.com/europcar.pdf"
+            },
+            "VendorPictureSVGURL": {
+              "@UIToken": "europcar",
+              "#text": "https://ctimg-svg.cartrawler.com/supplier-images/europcar.svg"
+            },
+            "CustomerReviews": {
+              "@total": "25",
+              "@overall": "3.00",
+              "@agent": "1129",
+              "@location": "273276",
+              "@name": "EUROPCAR Franchise",
+              "@overall_review": "60",
+              "@car_review": "70",
+              "@desk_review": "60",
+              "@dropoff_review": "70",
+              "@price_review": "40",
+              "@pickup_review": "60",
+              "@wait_time": "5",
+              "@ave_wait_mins": "15",
+              "@text": "average",
+              "@total_agent": "1567",
+              "@total_agent_rounded": "1000"
+            },
+            "Obfuscation": {
+              "@ID": "@1643367380747-1268178201@"
+            },
+            "Ranking": {
+              "@index": "1000",
+              "@OrderBy": "0"
+            },
+            "Features": {
+              "@PriceLock": "0"
+            },
+            "FlightDetails": {
+              "@Required": "false"
+            },
+            "TotalVendorOffers": "4",
+            "BundleOffersAvailable": "0"
+          }
+        }
+      },
+      {
+        "Vendor": {
+          "@Code": "1129",
+          "@CodeContext": "CARTRAWLER",
+          "@CompanyShortName": "EUROPCAR",
+          "@Division": "EUROPCAR"
+        },
+        "VehAvails": [
+          {
+            "VehAvailCore": {
+              "@Status": "Available",
+              "Vehicle": {
+                "@AirConditionInd": "false",
+                "@TransmissionType": "Manual",
+                "@FuelType": "Petrol",
+                "@DriveType": "Unspecified",
+                "@PassengerQuantity": "4",
+                "@BaggageQuantity": "2",
+                "@Code": "MDMN",
+                "@CodeContext": "CARTRAWLER",
+                "VehType": {
+                  "@VehicleCategory": "1",
+                  "@DoorCount": "5"
+                },
+                "VehClass": {
+                  "@Size": "1"
+                },
+                "VehMakeModel": {
+                  "@Name": "Volkswagen Up or similar",
+                  "@Code": "MDMN"
+                },
+                "PictureURL": "https://ctimg-fleet.cartrawler.com/volkswagen/up/primary.png",
+                "VehIdentity": {
+                  "@VehicleAssetNumber": "52673"
+                }
+              },
+              "RentalRate": {
+                "VehicleCharges": [
+                  {
+                    "@Description": "Breakdown assistance",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "602.VCP.X"
+                  },
+                  {
+                    "@Description": "Airport fee",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "30"
+                  },
+                  {
+                    "@Description": "Tax",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "7"
+                  },
+                  {
+                    "@Description": "Unlimited mileage",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "609.VCP.X"
+                  }
+                ],
+                "RateQualifier": {
+                  "@RateQualifier": "PREPAID-IN"
+                }
+              },
+              "TotalCharge": {
+                "@RateTotalAmount": "202.98",
+                "@EstimatedTotalAmount": "202.98",
+                "@CurrencyCode": "EUR"
+              },
+              "PricedEquips": [
+                {
+                  "Equipment": {
+                    "@EquipType": "101.EQP",
+                    "Description": "Additional Driver"
+                  },
+                  "Charge": {
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "13",
+                    "Description": "GPS"
+                  },
+                  "Charge": {
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "8",
+                    "Description": "Child toddler seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "9",
+                    "Description": "Booster seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                }
+              ],
+              "Fees": [
+                {
+                  "@Amount": "202.98",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "22"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "23"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "6"
+                }
+              ],
+              "Reference": {
+                "@Type": "16",
+                "@ID": "471675335",
+                "@ID_Context": "CARTRAWLER",
+                "@DateTime": "2022-01-28T10:56:20.713Z",
+                "@URL": "30342053-fd88-44a4-8869-c32cbdd99218.63"
+              },
+              "TPA_Extensions": {
+                "PictureURLHD": "https://ctimg-fleet.cartrawler.com/volkswagen/up/primary.png",
+                "UpSell": {
+                  "@Insurance": "1"
+                },
+                "DebitCard": {
+                  "@OnArrival": "false"
+                },
+                "PPDep": {
+                  "@Available": "false",
+                  "@Keep": "false"
+                },
+                "ZeroDeposit": {
+                  "@Available": "false"
+                },
+                "FuelPolicy": {
+                  "@Type": "FULLFULL",
+                  "@Description": "Fuel: Pick up and return full."
+                },
+                "Config": {
+                  "@OrderBy": "15",
+                  "@Relevance": "9",
+                  "@Preferred": "0",
+                  "@Insurance": "true",
+                  "@Duration": "4",
+                  "@CC_Info": "true",
+                  "@PhysicalInetAddress": "-1408231330",
+                  "@ConsumerAddress": "1508524389",
+                  "@HotelDelivery": "false"
+                },
+                "OrderBy": {
+                  "@Index": "15"
+                },
+                "Indexation": {
+                  "IndexByPrice": {
+                    "@Key": "10",
+                    "@BundleText": "Standard",
+                    "@BundleType": "Rate_IN"
+                  }
+                },
+                "CC_Info": {
+                  "@Required": "true"
+                },
+                "SpecialOffers": {
+                  "Offer": {
+                    "@Type": "pre_registration",
+                    "@UIToken": "pre_registration",
+                    "@ShortText": "Pre-Registration available",
+                    "@Index": "0",
+                    "@SEFree": "1",
+                    "#text": "For faster, easier car hire, add driver details before pick-up."
+                  }
+                },
+                "Duration": {
+                  "@Days": "4"
+                },
+                "Deposit": {
+                  "@Amount": "1500.00",
+                  "@CurrencyCode": "EUR",
+                  "@MinAmount": "0.00",
+                  "@MaxAmount": "0.00"
+                },
+                "PricedEquipsDisplay": [
+                  {
+                    "@EquipType": "101.EQP",
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "13",
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "8",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "9",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  }
+                ],
+                "Fleet": {
+                  "FleetGroup": {
+                    "Vehicle": {
+                      "@AirConditionInd": "false",
+                      "@TransmissionType": "Manual",
+                      "@FuelType": "Petrol",
+                      "@DriveType": "Unspecified",
+                      "@PassengerQuantity": "4",
+                      "@BaggageQuantity": "2",
+                      "@Code": "MDMN",
+                      "@CodeContext": "CARTRAWLER",
+                      "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "5"
+                      },
+                      "VehClass": {
+                        "@Size": "1"
+                      },
+                      "VehMakeModel": {
+                        "@Name": "Volkswagen Up or similar",
+                        "@Code": "MDMN"
+                      },
+                      "PictureURL": "https://ctimg-fleet.cartrawler.com/volkswagen/up/primary.png",
+                      "VehIdentity": {
+                        "@VehicleAssetNumber": "52673"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "VehAvailInfo": {
+              "PricedCoverages": [
+                {
+                  "Coverage": {
+                    "@CoverageType": "50"
+                  },
+                  "Charge": {
+                    "@Description": "Third party liability protection (TP)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "47"
+                  },
+                  "Charge": {
+                    "@Description": "Theft waiver (TW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "6"
+                  },
+                  "Charge": {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "VehAvailCore": {
+              "@Status": "Available",
+              "Vehicle": {
+                "@AirConditionInd": "false",
+                "@TransmissionType": "Manual",
+                "@FuelType": "Petrol",
+                "@DriveType": "Unspecified",
+                "@PassengerQuantity": "4",
+                "@BaggageQuantity": "2",
+                "@Code": "MCMN",
+                "@CodeContext": "CARTRAWLER",
+                "VehType": {
+                  "@VehicleCategory": "1",
+                  "@DoorCount": "3"
+                },
+                "VehClass": {
+                  "@Size": "1"
+                },
+                "VehMakeModel": {
+                  "@Name": "Hyundai i10 or similar",
+                  "@Code": "MCMN"
+                },
+                "PictureURL": "https://ctimg-fleet.cartrawler.com/hyundai/i10/primary.png",
+                "VehIdentity": {
+                  "@VehicleAssetNumber": "24953"
+                }
+              },
+              "RentalRate": {
+                "VehicleCharges": [
+                  {
+                    "@Description": "Breakdown assistance",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "602.VCP.X"
+                  },
+                  {
+                    "@Description": "Airport fee",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "30"
+                  },
+                  {
+                    "@Description": "Tax",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "7"
+                  },
+                  {
+                    "@Description": "Unlimited mileage",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "609.VCP.X"
+                  }
+                ],
+                "RateQualifier": {
+                  "@RateQualifier": "PREPAID-IN"
+                }
+              },
+              "TotalCharge": {
+                "@RateTotalAmount": "202.94",
+                "@EstimatedTotalAmount": "202.94",
+                "@CurrencyCode": "EUR"
+              },
+              "PricedEquips": [
+                {
+                  "Equipment": {
+                    "@EquipType": "101.EQP",
+                    "Description": "Additional Driver"
+                  },
+                  "Charge": {
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "13",
+                    "Description": "GPS"
+                  },
+                  "Charge": {
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "8",
+                    "Description": "Child toddler seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "9",
+                    "Description": "Booster seat"
+                  },
+                  "Charge": {
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "false",
+                    "@IncludedInRate": "false"
+                  }
+                }
+              ],
+              "Fees": [
+                {
+                  "@Amount": "202.94",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "22"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "23"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "6"
+                }
+              ],
+              "Reference": {
+                "@Type": "16",
+                "@ID": "1498352579",
+                "@ID_Context": "CARTRAWLER",
+                "@DateTime": "2022-01-28T10:56:20.713Z",
+                "@URL": "a0f73edd-a324-48a4-bd88-f4cb0986bc12.63"
+              },
+              "TPA_Extensions": {
+                "PictureURLHD": "https://ctimg-fleet.cartrawler.com/hyundai/i10/primary.png",
+                "UpSell": {
+                  "@Insurance": "1"
+                },
+                "DebitCard": {
+                  "@OnArrival": "false"
+                },
+                "PPDep": {
+                  "@Available": "false",
+                  "@Keep": "false"
+                },
+                "ZeroDeposit": {
+                  "@Available": "false"
+                },
+                "FuelPolicy": {
+                  "@Type": "FULLFULL",
+                  "@Description": "Fuel: Pick up and return full."
+                },
+                "Config": {
+                  "@OrderBy": "4",
+                  "@Relevance": "8",
+                  "@Preferred": "0",
+                  "@Insurance": "true",
+                  "@Duration": "4",
+                  "@CC_Info": "true",
+                  "@PhysicalInetAddress": "-1408231330",
+                  "@ConsumerAddress": "1508524389",
+                  "@HotelDelivery": "false"
+                },
+                "OrderBy": {
+                  "@Index": "4"
+                },
+                "Indexation": {
+                  "IndexByPrice": {
+                    "@Key": "9",
+                    "@BundleText": "Standard",
+                    "@BundleType": "Rate_IN"
+                  }
+                },
+                "CC_Info": {
+                  "@Required": "true"
+                },
+                "SpecialOffers": {
+                  "Offer": {
+                    "@Type": "pre_registration",
+                    "@UIToken": "pre_registration",
+                    "@ShortText": "Pre-Registration available",
+                    "@Index": "0",
+                    "@SEFree": "1",
+                    "#text": "For faster, easier car hire, add driver details before pick-up."
+                  }
+                },
+                "Duration": {
+                  "@Days": "4"
+                },
+                "Deposit": {
+                  "@Amount": "1500.00",
+                  "@CurrencyCode": "EUR",
+                  "@MinAmount": "0.00",
+                  "@MaxAmount": "0.00"
+                },
+                "PricedEquipsDisplay": [
+                  {
+                    "@EquipType": "101.EQP",
+                    "@Amount": "52.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "13",
+                    "@Amount": "48.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "8",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "9",
+                    "@Amount": "32.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  }
+                ],
+                "Fleet": {
+                  "FleetGroup": {
+                    "Vehicle": {
+                      "@AirConditionInd": "false",
+                      "@TransmissionType": "Manual",
+                      "@FuelType": "Petrol",
+                      "@DriveType": "Unspecified",
+                      "@PassengerQuantity": "4",
+                      "@BaggageQuantity": "2",
+                      "@Code": "MCMN",
+                      "@CodeContext": "CARTRAWLER",
+                      "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "3"
+                      },
+                      "VehClass": {
+                        "@Size": "1"
+                      },
+                      "VehMakeModel": {
+                        "@Name": "Hyundai i10 or similar",
+                        "@Code": "MCMN"
+                      },
+                      "PictureURL": "https://ctimg-fleet.cartrawler.com/hyundai/i10/primary.png",
+                      "VehIdentity": {
+                        "@VehicleAssetNumber": "24953"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "VehAvailInfo": {
+              "PricedCoverages": [
+                {
+                  "Coverage": {
+                    "@CoverageType": "50"
+                  },
+                  "Charge": {
+                    "@Description": "Third party liability protection (TP)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "47"
+                  },
+                  "Charge": {
+                    "@Description": "Theft waiver (TW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "6"
+                  },
+                  "Charge": {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "1500.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "Info": {
+          "LocationDetails": {
+            "@Code": "11",
+            "@Name": "Dublin - Airport",
+            "@AtAirport": "1",
+            "@ExtendedLocationCode": "273276",
+            "Address": {
+              "@Remark": "53.4259000,-6.2401000",
+              "AddressLine": "TERMINALS 1 AND 2, DUBLIN AIRPORT, DUBLIN, CO., Dublin",
+              "CountryName": {
+                "@Code": "IE"
+              }
+            },
+            "Telephone": {
+              "@PhoneNumber": "353 1 8122800"
+            },
+            "AdditionalInfo": {
+              "VehRentLocInfos": {
+                "VehRentLocInfo": {
+                  "@Type": "VLI_3.VLI.X"
+                }
+              },
+              "CounterLocation": {
+                "@Location": "VWF_3.VWF.X"
+              },
+              "TPA_Extensions": {
+                "SupplierLocation": {
+                  "@Timezone": "Europe/Dublin",
+                  "@TimeZoneAdjustmentMins": "0"
+                }
+              }
+            }
+          },
+          "TPA_Extensions": {
+            "SortOrdering": {
+              "@Type": "DEFAULT"
+            },
+            "VendorPruningCategory": {
+              "@Key": "4",
+              "@Description": "CORPORATE"
+            },
+            "VendorPictureURL": {
+              "@UIToken": "europcar",
+              "#text": "https://ctimg-supplier.cartrawler.com/europcar.pdf"
+            },
+            "VendorPictureSVGURL": {
+              "@UIToken": "europcar",
+              "#text": "https://ctimg-svg.cartrawler.com/supplier-images/europcar.svg"
+            },
+            "CustomerReviews": {
+              "@total": "25",
+              "@overall": "3.00",
+              "@agent": "1129",
+              "@location": "273276",
+              "@name": "EUROPCAR Franchise",
+              "@overall_review": "60",
+              "@car_review": "70",
+              "@desk_review": "60",
+              "@dropoff_review": "70",
+              "@price_review": "40",
+              "@pickup_review": "60",
+              "@wait_time": "5",
+              "@ave_wait_mins": "15",
+              "@text": "average",
+              "@total_agent": "1567",
+              "@total_agent_rounded": "1000"
+            },
+            "Obfuscation": {
+              "@ID": "@1643367380747-1703506421@"
+            },
+            "Ranking": {
+              "@index": "1000",
+              "@OrderBy": "0"
+            },
+            "Features": {
+              "@PriceLock": "0"
+            },
+            "FlightDetails": {
+              "@Required": "false"
+            },
+            "TotalVendorOffers": "2",
+            "BundleOffersAvailable": "0"
+          }
+        }
+      },
+      {
+        "Vendor": {
+          "@Code": "2404",
+          "@CodeContext": "CARTRAWLER",
+          "@CompanyShortName": "SIXT",
+          "@Division": "SIXT"
+        },
+        "VehAvails": [
+          {
+            "VehAvailCore": {
+              "@Status": "Available",
+              "Vehicle": {
+                "@AirConditionInd": "false",
+                "@TransmissionType": "Manual",
+                "@FuelType": "Petrol",
+                "@DriveType": "Unspecified",
+                "@PassengerQuantity": "4",
+                "@BaggageQuantity": "2",
+                "@Code": "MCMN",
+                "@CodeContext": "CARTRAWLER",
+                "VehType": {
+                  "@VehicleCategory": "1",
+                  "@DoorCount": "3"
+                },
+                "VehClass": {
+                  "@Size": "1"
+                },
+                "VehMakeModel": {
+                  "@Name": "Ford Ka or similar",
+                  "@Code": "MCMN"
+                },
+                "PictureURL": "https://ctimg-fleet.cartrawler.com/ford/ka-3dr/primary.png",
+                "VehIdentity": {
+                  "@VehicleAssetNumber": "24953"
+                }
+              },
+              "RentalRate": {
+                "VehicleCharges": [
+                  {
+                    "@Description": "Breakdown assistance",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "602.VCP.X"
+                  },
+                  {
+                    "@Description": "Airport fee",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "30"
+                  },
+                  {
+                    "@Description": "Tax",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "7"
+                  },
+                  {
+                    "@Description": "Unlimited mileage",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "609.VCP.X"
+                  }
+                ],
+                "RateQualifier": {
+                  "@RateQualifier": "PREPAID-IN"
+                }
+              },
+              "TotalCharge": {
+                "@RateTotalAmount": "151.80",
+                "@EstimatedTotalAmount": "151.80",
+                "@CurrencyCode": "EUR"
+              },
+              "PricedEquips": [
+                {
+                  "Equipment": {
+                    "@EquipType": "101.EQP",
+                    "Description": "Additional Driver"
+                  },
+                  "Charge": {
+                    "@Amount": "42.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "13",
+                    "Description": "GPS"
+                  },
+                  "Charge": {
+                    "@Amount": "47.99",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "8",
+                    "Description": "Child toddler seat"
+                  },
+                  "Charge": {
+                    "@Amount": "60.02",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "9",
+                    "Description": "Booster seat"
+                  },
+                  "Charge": {
+                    "@Amount": "45.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "7",
+                    "Description": "Infant child seat"
+                  },
+                  "Charge": {
+                    "@Amount": "70.01",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                }
+              ],
+              "Fees": [
+                {
+                  "@Amount": "151.80",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "22"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "23"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "6"
+                }
+              ],
+              "Reference": {
+                "@Type": "16",
+                "@ID": "1371888719",
+                "@ID_Context": "CARTRAWLER",
+                "@DateTime": "2022-01-28T10:56:20.713Z",
+                "@URL": "3125121f-56e4-41c9-b90f-0fc06e579eff.63"
+              },
+              "TPA_Extensions": {
+                "PictureURLHD": "https://ctimg-fleet.cartrawler.com/ford/ka-3dr/primary.png",
+                "UpSell": {
+                  "@Insurance": "1"
+                },
+                "DebitCard": {
+                  "@OnArrival": "false"
+                },
+                "PPDep": {
+                  "@Available": "false",
+                  "@Keep": "false"
+                },
+                "ZeroDeposit": {
+                  "@Available": "false"
+                },
+                "FuelPolicy": {
+                  "@Type": "FULLFULL",
+                  "@Description": "Fuel: Pick up and return full."
+                },
+                "Config": {
+                  "@OrderBy": "1",
+                  "@Relevance": "1",
+                  "@Preferred": "0",
+                  "@Insurance": "true",
+                  "@Duration": "4",
+                  "@BestPrice": "1",
+                  "@CC_Info": "true",
+                  "@PhysicalInetAddress": "-1408231330",
+                  "@ConsumerAddress": "1508524389",
+                  "@HotelDelivery": "false"
+                },
+                "OrderBy": {
+                  "@Index": "1"
+                },
+                "Indexation": {
+                  "IndexByPrice": {
+                    "@Key": "0",
+                    "@BundleText": "Standard",
+                    "@BundleType": "Rate_IN"
+                  }
+                },
+                "CC_Info": {
+                  "@Required": "true"
+                },
+                "Duration": {
+                  "@Days": "4"
+                },
+                "Deposit": {
+                  "@Amount": "2000.00",
+                  "@CurrencyCode": "EUR",
+                  "@MinAmount": "0.00",
+                  "@MaxAmount": "0.00"
+                },
+                "Fees": [
+                  {
+                    "@Amount": "14.02",
+                    "@CurrencyCode": "EUR",
+                    "@Purpose": "104.FEE"
+                  }
+                ],
+                "PricedEquipsDisplay": [
+                  {
+                    "@EquipType": "101.EQP",
+                    "@Amount": "42.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "13",
+                    "@Amount": "47.99",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "8",
+                    "@Amount": "60.02",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "9",
+                    "@Amount": "45.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "7",
+                    "@Amount": "70.01",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  }
+                ],
+                "Fleet": {
+                  "FleetGroup": {
+                    "Vehicle": {
+                      "@AirConditionInd": "false",
+                      "@TransmissionType": "Manual",
+                      "@FuelType": "Petrol",
+                      "@DriveType": "Unspecified",
+                      "@PassengerQuantity": "4",
+                      "@BaggageQuantity": "2",
+                      "@Code": "MCMN",
+                      "@CodeContext": "CARTRAWLER",
+                      "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "3"
+                      },
+                      "VehClass": {
+                        "@Size": "1"
+                      },
+                      "VehMakeModel": {
+                        "@Name": "Ford Ka or similar",
+                        "@Code": "MCMN"
+                      },
+                      "PictureURL": "https://ctimg-fleet.cartrawler.com/ford/ka-3dr/primary.png",
+                      "VehIdentity": {
+                        "@VehicleAssetNumber": "24953"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "VehAvailInfo": {
+              "PricedCoverages": [
+                {
+                  "Coverage": {
+                    "@CoverageType": "47"
+                  },
+                  "Charge": {
+                    "@Description": "Theft waiver (TW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "2000.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "50"
+                  },
+                  "Charge": {
+                    "@Description": "Third party liability protection (TP)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "6"
+                  },
+                  "Charge": {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "2000.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "VehAvailCore": {
+              "@Status": "Available",
+              "Vehicle": {
+                "@AirConditionInd": "false",
+                "@TransmissionType": "Manual",
+                "@FuelType": "Petrol",
+                "@DriveType": "Unspecified",
+                "@PassengerQuantity": "5",
+                "@BaggageQuantity": "3",
+                "@Code": "CDMN",
+                "@CodeContext": "CARTRAWLER",
+                "VehType": {
+                  "@VehicleCategory": "1",
+                  "@DoorCount": "5"
+                },
+                "VehClass": {
+                  "@Size": "4"
+                },
+                "VehMakeModel": {
+                  "@Name": "Opel Astra or similar",
+                  "@Code": "CDMN"
+                },
+                "PictureURL": "https://ctimg-fleet.cartrawler.com/opel/astra/primary.png",
+                "VehIdentity": {
+                  "@VehicleAssetNumber": "881"
+                }
+              },
+              "RentalRate": {
+                "VehicleCharges": [
+                  {
+                    "@Description": "Breakdown assistance",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "602.VCP.X"
+                  },
+                  {
+                    "@Description": "Airport fee",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "30"
+                  },
+                  {
+                    "@Description": "Tax",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "7"
+                  },
+                  {
+                    "@Description": "Unlimited mileage",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "609.VCP.X"
+                  }
+                ],
+                "RateQualifier": {
+                  "@RateQualifier": "PREPAID-IN"
+                }
+              },
+              "TotalCharge": {
+                "@RateTotalAmount": "170.36",
+                "@EstimatedTotalAmount": "170.36",
+                "@CurrencyCode": "EUR"
+              },
+              "PricedEquips": [
+                {
+                  "Equipment": {
+                    "@EquipType": "101.EQP",
+                    "Description": "Additional Driver"
+                  },
+                  "Charge": {
+                    "@Amount": "42.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "13",
+                    "Description": "GPS"
+                  },
+                  "Charge": {
+                    "@Amount": "47.99",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "8",
+                    "Description": "Child toddler seat"
+                  },
+                  "Charge": {
+                    "@Amount": "60.02",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "9",
+                    "Description": "Booster seat"
+                  },
+                  "Charge": {
+                    "@Amount": "45.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "7",
+                    "Description": "Infant child seat"
+                  },
+                  "Charge": {
+                    "@Amount": "70.01",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                }
+              ],
+              "Fees": [
+                {
+                  "@Amount": "170.36",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "22"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "23"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "6"
+                }
+              ],
+              "Reference": {
+                "@Type": "16",
+                "@ID": "1893804869",
+                "@ID_Context": "CARTRAWLER",
+                "@DateTime": "2022-01-28T10:56:20.713Z",
+                "@URL": "4f14e123-7b20-4e20-afae-78e54516d43f.63"
+              },
+              "TPA_Extensions": {
+                "PictureURLHD": "https://ctimg-fleet.cartrawler.com/opel/astra/primary.png",
+                "UpSell": {
+                  "@Insurance": "1"
+                },
+                "DebitCard": {
+                  "@OnArrival": "false"
+                },
+                "PPDep": {
+                  "@Available": "false",
+                  "@Keep": "false"
+                },
+                "ZeroDeposit": {
+                  "@Available": "false"
+                },
+                "FuelPolicy": {
+                  "@Type": "FULLFULL",
+                  "@Description": "Fuel: Pick up and return full."
+                },
+                "Config": {
+                  "@OrderBy": "11",
+                  "@Relevance": "3",
+                  "@Preferred": "0",
+                  "@Insurance": "true",
+                  "@Duration": "4",
+                  "@BestPrice": "1",
+                  "@CC_Info": "true",
+                  "@PhysicalInetAddress": "-1408231330",
+                  "@ConsumerAddress": "1508524389",
+                  "@HotelDelivery": "false"
+                },
+                "OrderBy": {
+                  "@Index": "11"
+                },
+                "Indexation": {
+                  "IndexByPrice": {
+                    "@Key": "2",
+                    "@BundleText": "Standard",
+                    "@BundleType": "Rate_IN"
+                  }
+                },
+                "CC_Info": {
+                  "@Required": "true"
+                },
+                "Duration": {
+                  "@Days": "4"
+                },
+                "Deposit": {
+                  "@Amount": "2000.00",
+                  "@CurrencyCode": "EUR",
+                  "@MinAmount": "0.00",
+                  "@MaxAmount": "0.00"
+                },
+                "Fees": [
+                  {
+                    "@Amount": "16.07",
+                    "@CurrencyCode": "EUR",
+                    "@Purpose": "104.FEE"
+                  }
+                ],
+                "PricedEquipsDisplay": [
+                  {
+                    "@EquipType": "101.EQP",
+                    "@Amount": "42.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "13",
+                    "@Amount": "47.99",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "8",
+                    "@Amount": "60.02",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "9",
+                    "@Amount": "45.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "7",
+                    "@Amount": "70.01",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  }
+                ],
+                "Fleet": {
+                  "FleetGroup": {
+                    "Vehicle": {
+                      "@AirConditionInd": "false",
+                      "@TransmissionType": "Manual",
+                      "@FuelType": "Petrol",
+                      "@DriveType": "Unspecified",
+                      "@PassengerQuantity": "5",
+                      "@BaggageQuantity": "3",
+                      "@Code": "CDMN",
+                      "@CodeContext": "CARTRAWLER",
+                      "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "5"
+                      },
+                      "VehClass": {
+                        "@Size": "4"
+                      },
+                      "VehMakeModel": {
+                        "@Name": "Opel Astra or similar",
+                        "@Code": "CDMN"
+                      },
+                      "PictureURL": "https://ctimg-fleet.cartrawler.com/opel/astra/primary.png",
+                      "VehIdentity": {
+                        "@VehicleAssetNumber": "881"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "VehAvailInfo": {
+              "PricedCoverages": [
+                {
+                  "Coverage": {
+                    "@CoverageType": "47"
+                  },
+                  "Charge": {
+                    "@Description": "Theft waiver (TW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "2000.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "50"
+                  },
+                  "Charge": {
+                    "@Description": "Third party liability protection (TP)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "6"
+                  },
+                  "Charge": {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "2000.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "VehAvailCore": {
+              "@Status": "Available",
+              "Vehicle": {
+                "@AirConditionInd": "false",
+                "@TransmissionType": "Manual",
+                "@FuelType": "Petrol",
+                "@DriveType": "Unspecified",
+                "@PassengerQuantity": "5",
+                "@BaggageQuantity": "2",
+                "@Code": "EDMN",
+                "@CodeContext": "CARTRAWLER",
+                "VehType": {
+                  "@VehicleCategory": "1",
+                  "@DoorCount": "5"
+                },
+                "VehClass": {
+                  "@Size": "3"
+                },
+                "VehMakeModel": {
+                  "@Name": "Volkswagen Polo or similar",
+                  "@Code": "EDMN"
+                },
+                "PictureURL": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-5dr/primary.png",
+                "VehIdentity": {
+                  "@VehicleAssetNumber": "341"
+                }
+              },
+              "RentalRate": {
+                "VehicleCharges": [
+                  {
+                    "@Description": "Breakdown assistance",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "602.VCP.X"
+                  },
+                  {
+                    "@Description": "Airport fee",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "30"
+                  },
+                  {
+                    "@Description": "Tax",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "7"
+                  },
+                  {
+                    "@Description": "Unlimited mileage",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "609.VCP.X"
+                  }
+                ],
+                "RateQualifier": {
+                  "@RateQualifier": "PREPAID-IN"
+                }
+              },
+              "TotalCharge": {
+                "@RateTotalAmount": "160.05",
+                "@EstimatedTotalAmount": "160.05",
+                "@CurrencyCode": "EUR"
+              },
+              "PricedEquips": [
+                {
+                  "Equipment": {
+                    "@EquipType": "101.EQP",
+                    "Description": "Additional Driver"
+                  },
+                  "Charge": {
+                    "@Amount": "42.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "13",
+                    "Description": "GPS"
+                  },
+                  "Charge": {
+                    "@Amount": "47.99",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "8",
+                    "Description": "Child toddler seat"
+                  },
+                  "Charge": {
+                    "@Amount": "60.02",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "9",
+                    "Description": "Booster seat"
+                  },
+                  "Charge": {
+                    "@Amount": "45.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "7",
+                    "Description": "Infant child seat"
+                  },
+                  "Charge": {
+                    "@Amount": "70.01",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                }
+              ],
+              "Fees": [
+                {
+                  "@Amount": "160.05",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "22"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "23"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "6"
+                }
+              ],
+              "Reference": {
+                "@Type": "16",
+                "@ID": "966267966",
+                "@ID_Context": "CARTRAWLER",
+                "@DateTime": "2022-01-28T10:56:20.713Z",
+                "@URL": "91f50235-a8b4-446d-bbc5-63b828230d0c.63"
+              },
+              "TPA_Extensions": {
+                "PictureURLHD": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-5dr/primary.png",
+                "UpSell": {
+                  "@Insurance": "1"
+                },
+                "DebitCard": {
+                  "@OnArrival": "false"
+                },
+                "PPDep": {
+                  "@Available": "false",
+                  "@Keep": "false"
+                },
+                "ZeroDeposit": {
+                  "@Available": "false"
+                },
+                "FuelPolicy": {
+                  "@Type": "FULLFULL",
+                  "@Description": "Fuel: Pick up and return full."
+                },
+                "Config": {
+                  "@OrderBy": "10",
+                  "@Relevance": "2",
+                  "@Preferred": "0",
+                  "@Insurance": "true",
+                  "@Duration": "4",
+                  "@BestPrice": "1",
+                  "@CC_Info": "true",
+                  "@PhysicalInetAddress": "-1408231330",
+                  "@ConsumerAddress": "1508524389",
+                  "@HotelDelivery": "false"
+                },
+                "OrderBy": {
+                  "@Index": "10"
+                },
+                "Indexation": {
+                  "IndexByPrice": {
+                    "@Key": "1",
+                    "@BundleText": "Standard",
+                    "@BundleType": "Rate_IN"
+                  }
+                },
+                "CC_Info": {
+                  "@Required": "true"
+                },
+                "Duration": {
+                  "@Days": "4"
+                },
+                "Deposit": {
+                  "@Amount": "2000.00",
+                  "@CurrencyCode": "EUR",
+                  "@MinAmount": "0.00",
+                  "@MaxAmount": "0.00"
+                },
+                "Fees": [
+                  {
+                    "@Amount": "14.93",
+                    "@CurrencyCode": "EUR",
+                    "@Purpose": "104.FEE"
+                  }
+                ],
+                "PricedEquipsDisplay": [
+                  {
+                    "@EquipType": "101.EQP",
+                    "@Amount": "42.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "13",
+                    "@Amount": "47.99",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "8",
+                    "@Amount": "60.02",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "9",
+                    "@Amount": "45.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "7",
+                    "@Amount": "70.01",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  }
+                ],
+                "Fleet": {
+                  "FleetGroup": {
+                    "Vehicle": {
+                      "@AirConditionInd": "false",
+                      "@TransmissionType": "Manual",
+                      "@FuelType": "Petrol",
+                      "@DriveType": "Unspecified",
+                      "@PassengerQuantity": "5",
+                      "@BaggageQuantity": "2",
+                      "@Code": "EDMN",
+                      "@CodeContext": "CARTRAWLER",
+                      "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "5"
+                      },
+                      "VehClass": {
+                        "@Size": "3"
+                      },
+                      "VehMakeModel": {
+                        "@Name": "Volkswagen Polo or similar",
+                        "@Code": "EDMN"
+                      },
+                      "PictureURL": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-5dr/primary.png",
+                      "VehIdentity": {
+                        "@VehicleAssetNumber": "341"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "VehAvailInfo": {
+              "PricedCoverages": [
+                {
+                  "Coverage": {
+                    "@CoverageType": "47"
+                  },
+                  "Charge": {
+                    "@Description": "Theft waiver (TW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "2000.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "50"
+                  },
+                  "Charge": {
+                    "@Description": "Third party liability protection (TP)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "6"
+                  },
+                  "Charge": {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "2000.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "VehAvailCore": {
+              "@Status": "Available",
+              "Vehicle": {
+                "@AirConditionInd": "true",
+                "@TransmissionType": "Manual",
+                "@FuelType": "Unspecified",
+                "@DriveType": "Unspecified",
+                "@PassengerQuantity": "5",
+                "@BaggageQuantity": "2",
+                "@Code": "EFMR",
+                "@CodeContext": "CARTRAWLER",
+                "VehType": {
+                  "@VehicleCategory": "3",
+                  "@DoorCount": "5"
+                },
+                "VehClass": {
+                  "@Size": "48"
+                },
+                "VehMakeModel": {
+                  "@Name": "Volkswagen T-Cross or similar",
+                  "@Code": "EFMR"
+                },
+                "PictureURL": "https://ctimg-fleet.cartrawler.com/volkswagen/t-cross/primary.png",
+                "VehIdentity": {
+                  "@VehicleAssetNumber": "63313"
+                }
+              },
+              "RentalRate": {
+                "VehicleCharges": [
+                  {
+                    "@Description": "Breakdown assistance",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "602.VCP.X"
+                  },
+                  {
+                    "@Description": "Airport fee",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "30"
+                  },
+                  {
+                    "@Description": "Tax",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "7"
+                  },
+                  {
+                    "@Description": "Unlimited mileage",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true",
+                    "@Purpose": "609.VCP.X"
+                  }
+                ],
+                "RateQualifier": {
+                  "@RateQualifier": "PREPAID-IN"
+                }
+              },
+              "TotalCharge": {
+                "@RateTotalAmount": "205.69",
+                "@EstimatedTotalAmount": "205.69",
+                "@CurrencyCode": "EUR"
+              },
+              "PricedEquips": [
+                {
+                  "Equipment": {
+                    "@EquipType": "101.EQP",
+                    "Description": "Additional Driver"
+                  },
+                  "Charge": {
+                    "@Amount": "42.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "13",
+                    "Description": "GPS"
+                  },
+                  "Charge": {
+                    "@Amount": "47.99",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "8",
+                    "Description": "Child toddler seat"
+                  },
+                  "Charge": {
+                    "@Amount": "60.02",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "9",
+                    "Description": "Booster seat"
+                  },
+                  "Charge": {
+                    "@Amount": "45.00",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                },
+                {
+                  "Equipment": {
+                    "@EquipType": "7",
+                    "Description": "Infant child seat"
+                  },
+                  "Charge": {
+                    "@Amount": "70.01",
+                    "@CurrencyCode": "EUR",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "false"
+                  }
+                }
+              ],
+              "Fees": [
+                {
+                  "@Amount": "205.69",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "22"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "23"
+                },
+                {
+                  "@Amount": "0.00",
+                  "@CurrencyCode": "EUR",
+                  "@Purpose": "6"
+                }
+              ],
+              "Reference": {
+                "@Type": "16",
+                "@ID": "1196921172",
+                "@ID_Context": "CARTRAWLER",
+                "@DateTime": "2022-01-28T10:56:20.713Z",
+                "@URL": "61e8924d-bd85-4a85-bbf5-3206ba949295.63"
+              },
+              "TPA_Extensions": {
+                "PictureURLHD": "https://ctimg-fleet.cartrawler.com/volkswagen/t-cross/primary.png",
+                "UpSell": {
+                  "@Insurance": "1"
+                },
+                "DebitCard": {
+                  "@OnArrival": "false"
+                },
+                "PPDep": {
+                  "@Available": "false",
+                  "@Keep": "false"
+                },
+                "ZeroDeposit": {
+                  "@Available": "false"
+                },
+                "FuelPolicy": {
+                  "@Type": "FULLFULL",
+                  "@Description": "Fuel: Pick up and return full."
+                },
+                "Config": {
+                  "@OrderBy": "31",
+                  "@Relevance": "10",
+                  "@Preferred": "0",
+                  "@Insurance": "true",
+                  "@Duration": "4",
+                  "@CC_Info": "true",
+                  "@PhysicalInetAddress": "-1408231330",
+                  "@ConsumerAddress": "1508524389",
+                  "@HotelDelivery": "false"
+                },
+                "OrderBy": {
+                  "@Index": "31"
+                },
+                "Indexation": {
+                  "IndexByPrice": {
+                    "@Key": "11",
+                    "@BundleText": "Standard",
+                    "@BundleType": "Rate_IN"
+                  }
+                },
+                "CC_Info": {
+                  "@Required": "true"
+                },
+                "Duration": {
+                  "@Days": "4"
+                },
+                "Deposit": {
+                  "@Amount": "2000.00",
+                  "@CurrencyCode": "EUR",
+                  "@MinAmount": "0.00",
+                  "@MaxAmount": "0.00"
+                },
+                "Fees": [
+                  {
+                    "@Amount": "19.95",
+                    "@CurrencyCode": "EUR",
+                    "@Purpose": "104.FEE"
+                  }
+                ],
+                "PricedEquipsDisplay": [
+                  {
+                    "@EquipType": "101.EQP",
+                    "@Amount": "42.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "13",
+                    "@Amount": "47.99",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "8",
+                    "@Amount": "60.02",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "9",
+                    "@Amount": "45.00",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  },
+                  {
+                    "@EquipType": "7",
+                    "@Amount": "70.01",
+                    "@CurrencyCode": "EUR",
+                    "@RateType": "POSTPAID"
+                  }
+                ],
+                "Fleet": {
+                  "FleetGroup": {
+                    "Vehicle": {
+                      "@AirConditionInd": "true",
+                      "@TransmissionType": "Manual",
+                      "@FuelType": "Unspecified",
+                      "@DriveType": "Unspecified",
+                      "@PassengerQuantity": "5",
+                      "@BaggageQuantity": "2",
+                      "@Code": "EFMR",
+                      "@CodeContext": "CARTRAWLER",
+                      "VehType": {
+                        "@VehicleCategory": "3",
+                        "@DoorCount": "5"
+                      },
+                      "VehClass": {
+                        "@Size": "48"
+                      },
+                      "VehMakeModel": {
+                        "@Name": "Volkswagen T-Cross or similar",
+                        "@Code": "EFMR"
+                      },
+                      "PictureURL": "https://ctimg-fleet.cartrawler.com/volkswagen/t-cross/primary.png",
+                      "VehIdentity": {
+                        "@VehicleAssetNumber": "63313"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "VehAvailInfo": {
+              "PricedCoverages": [
+                {
+                  "Coverage": {
+                    "@CoverageType": "47"
+                  },
+                  "Charge": {
+                    "@Description": "Theft waiver (TW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "2000.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "50"
+                  },
+                  "Charge": {
+                    "@Description": "Third party liability protection (TP)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                },
+                {
+                  "Coverage": {
+                    "@CoverageType": "6"
+                  },
+                  "Charge": {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@TaxInclusive": "true",
+                    "@IncludedInRate": "true"
+                  },
+                  "Deductible": {
+                    "@Amount": "2000.00",
+                    "@CurrencyCode": "EUR"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "Info": {
+          "LocationDetails": {
+            "@Code": "11",
+            "@Name": "Dublin - Airport",
+            "@AtAirport": "1",
+            "@ExtendedLocationCode": "438333",
+            "Address": {
+              "@Remark": "53.4212500,-6.2264300",
+              "AddressLine": "Terminal 1 and 2, Dublin",
+              "CountryName": {
+                "@Code": "IE"
+              }
+            },
+            "Telephone": {
+              "@PhoneNumber": "+353-18445691"
+            },
+            "AdditionalInfo": {
+              "VehRentLocInfos": {
+                "VehRentLocInfo": {
+                  "@Type": "VLI_1.VLI.X"
+                }
+              },
+              "CounterLocation": {
+                "@Location": "VWF_1.VWF.X"
+              },
+              "TPA_Extensions": {
+                "SupplierLocation": {
+                  "@Timezone": "Europe/Dublin",
+                  "@TimeZoneAdjustmentMins": "0"
+                }
+              }
+            }
+          },
+          "TPA_Extensions": {
+            "SortOrdering": {
+              "@Type": "DEFAULT"
+            },
+            "VendorPruningCategory": {
+              "@Key": "4",
+              "@Description": "CORPORATE"
+            },
+            "VendorPictureURL": {
+              "@UIToken": "sixt",
+              "#text": "https://ctimg-supplier.cartrawler.com/sixt.pdf"
+            },
+            "VendorPictureSVGURL": {
+              "@UIToken": "sixt",
+              "#text": "https://ctimg-svg.cartrawler.com/supplier-images/sixt.svg"
+            },
+            "CustomerReviews": {
+              "@total": "46",
+              "@overall": "3.20",
+              "@agent": "2404",
+              "@location": "438333",
+              "@name": "SIXT Franchise",
+              "@overall_review": "64",
+              "@car_review": "70",
+              "@desk_review": "60",
+              "@dropoff_review": "70",
+              "@price_review": "60",
+              "@pickup_review": "50",
+              "@wait_time": "5",
+              "@ave_wait_mins": "10",
+              "@text": "average",
+              "@total_agent": "402",
+              "@total_agent_rounded": "250"
+            },
+            "Obfuscation": {
+              "@ID": "@1643367380760-68566813@"
+            },
+            "Ranking": {
+              "@index": "1000",
+              "@OrderBy": "0"
+            },
+            "Features": {
+              "@PriceLock": "0"
+            },
+            "FlightDetails": {
+              "@Required": "false"
+            },
+            "TotalVendorOffers": "6",
+            "BundleOffersAvailable": "0"
+          }
+        }
+      }
+    ]
+  }
+}

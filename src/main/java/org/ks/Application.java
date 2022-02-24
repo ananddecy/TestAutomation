@@ -40,7 +40,7 @@ public class Application {
     Map<String, Double> minPriceByCode = new HashMap<>();
     groupedByCodes.forEach((key, value) -> minPriceByCode.put(key, value.stream().mapToDouble(v -> v).min().getAsDouble()));
 
-    minPriceByCode.forEach((key, value) -> System.out.println("For Cary Type: " + key + " Minimum price is " + value));
+    minPriceByCode.forEach((key, value) -> System.out.println("For Car Type: " + key + " Minimum price is " + value));
 
     return minPriceByCode;
   }
@@ -69,7 +69,7 @@ public class Application {
 		        .collect(Collectors.toList());
 
 		    sortedCorporateCars.forEach(car -> {
-		      System.out.println("Car is " + car.getVehAvailCore().getVehicle().getCode() + " and price is: " + car.getVehAvailCore().getTotalCharge().getRateTotalAmount());
+		      System.out.println("Corporate Car is " + car.getVehAvailCore().getVehicle().getCode() + " and price from low to high is: " + car.getVehAvailCore().getTotalCharge().getRateTotalAmount());
 		    });
 	
   }
